@@ -10,13 +10,19 @@
 Within an empty folder run `grunt-init stream` and answer the questions.
 
 ## Features
-* A readable/writable stream template in `index.js`.
-* A function that returns a new instance as well as exposes the class.<br/>
-> var m = require('module');<br/>
-> var Module = require('module').Module;<br/>
-> // m === new Module();
-* `.travis.yml` with a travis badge in the `README.md`.
-* `.editorconfig` file.
+<ul>
+<li>A readable/writable stream template in <code>index.js</code>.</li>
+<li>A function that returns a new instance as well as exposes the class.<br/>
+<pre>
+var m = require('module');
+var Module = require('module').Module;
+// m === new Module();
+</pre>
+</li>
+
+<li><code>.travis.yml</code> with a travis badge in the <code>README.md</code>.</li>
+<li>Has an <code>.editorconfig</code> file.</li>
+</ul>
 
 ## Contributing
 Please send a pull request if you think you can make this template better.
