@@ -36,11 +36,13 @@ module.exports.{%= cls %} = {%= cls %};
 
 // end
 {%= cls %}.prototype.end = function(buf) {
+  var self = this;
   if (buf) this.write(buf);
   self.emit('end');
 };
 
 // destroy
 {%= cls %}.prototype.destroy = function() {
-  this.emit('close');
+  var self = this;
+  self.emit('close');
 };
