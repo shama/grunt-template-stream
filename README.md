@@ -12,11 +12,9 @@ Within an empty folder run `grunt-init stream` and answer the questions.
 ## Features
 * A readable/writable stream template in `index.js`.
 * A function that returns a new instance as well as exposes the class.<br/>
-```js
-var m = require('module');
-var Module = require('module').Module;
-// m === new Module();
-```
+> var m = require('module');<br/>
+> var Module = require('module').Module;<br/>
+> // m === new Module();
 * `.travis.yml` with a travis badge in the `README.md`.
 * `.editorconfig` file.
 
