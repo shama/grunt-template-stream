@@ -37,7 +37,7 @@ module.exports.{%= cls %} = {%= cls %};
 // end
 {%= cls %}.prototype.end = function(buf) {
   var self = this;
-  if (buf) this.write(buf);
+  if (buf) self.write(buf);
   self.emit('end');
 };
 
